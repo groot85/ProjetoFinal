@@ -33,7 +33,6 @@
     padding-top: 135.81px;
     background-color:#706298;    
 }
-
 .titleSectionOne{
     color: #383056;
     font-size: 40px;
@@ -42,10 +41,89 @@
 }
 
 .subTitleSectionOne{
-    color: #383056;
-    font-size: 25px;
+    color: #bc93ea;
+    font-size: 22px;
     font: 300;
     margin-bottom: 40px;
+}
+.sectionTwo{
+    background-color:#bc93ea;    
+}
+.titleSectionTwo{
+    color: #383056;
+    font-size: 40px;
+    font-weight: 600;
+    margin:0px;
+}
+.subTitleSectionTwo{
+    color: #383056;
+    font-size: 22px;
+    font: 300;
+    margin-bottom: 40px;
+}
+
+.textSectionTwo{
+    color: #383056;
+    font-size: 14px;
+    font: 300;
+    margin-bottom: 12px;
+}
+
+/*.bibliografiaSectionTwo{
+    color: #383056;
+    font-size: 10px;
+    font-style: italic;
+    margin-bottom: 0px;
+}*/
+
+
+.sectionThree{
+    padding-top: 10px;
+    background-color:#706298;    
+}
+.titleSectionThree{
+    color: #383056;
+    font-size: 40px;
+    font-weight: 600;
+    margin:0px;
+}
+
+.subTitleSectionThree{
+    color: #bc93ea;
+    font-size: 22px;
+    font: 300;
+    margin-bottom: 40px;
+}
+
+.textSectionThree{
+    color: #bc93ea;
+    font-size: 14px;
+    font: 300;
+    margin-bottom: 7px;
+}
+
+.sectionFour{
+    padding-top: 15px;
+    background-color:#bc93ea;    
+}
+.titleSectionFour{
+    color: #383056;
+    font-size: 40px;
+    font-weight: 600;
+    margin:0px;
+}
+.subTitleSectionFour{
+    color: #383056;
+    font-size: 22px;
+    font: 300;
+    margin-bottom: 40px;
+}
+
+.textSectionFour{
+    color: #383056;
+    font-size: 14px;
+    font: 300;
+    margin-bottom: 7px;
 }
 
 .imgTopo{
@@ -53,24 +131,23 @@
     border-top-right-radius: 70px;
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
-    width: 500px; 
+    width: 500px;
 }
 
 .divContenSection{
     padding:0px 100px;
 }
 
-.btn-sectionOneL{
+.btn-sectionOneL{  /* btn são os botoes*/
     color:#bc93ea;
     background-color: #383056;
     border: none;
     font-size: 20px;
     font-weight: 600;
     margin-right: 30px;
-
 }
 
-.btn-sectionOneL:hover{
+.btn-sectionOneL:hover{ /* btn são os botoes quando passa o mouse*/
     color:#383056;
     background-color: #bc93ea;
     border: none;
@@ -90,28 +167,56 @@
     border: none; 
 }
 
-.ladoalado{
-    display: flex;  
+/*.ladoalado{ 
+    display: flex;
+    margin-left: 0cqmax;
+    margin-right: 30px;  
+  }*/
+
+  .container{
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.img-container{
+    padding-top:10px;
+    display: flex;      
+}
+.text-container {
+    margin-left: 10px;
+    background-color:#383056;
+    padding: 10px;
+    color:#bc93ea;
+    font-size: 14px;
+    font: 300;
+    margin-bottom: 7px;
+    padding-top:10px;
+
   }
+
   .imgefeito {
     margin: 0;
     overflow: hidden;
     float: left;
     position: relative;
+    margin-right: 33px;
   }
+
   .imgefeito a {
     text-decoration: none;
     float: left;
   }
-  .imgefeito a:hover {
+
+ .imgefeito a:hover {
     cursor: pointer;
   }
+
   .imgefeito a img {
-    float: left;
+    float: center;
     margin: 0;
     border: none;
     padding: 10px;
-    background: #fff;
+    background: #fff;   
     border: 1px solid #ddd;
   }
   .imgefeito a .desc {
@@ -134,9 +239,12 @@
    font-size: 13;
   }
 
+  .imgcursos{
+    border: 10px #bc93ea;
+  }
   /*.color1 {color: #130b1e;}
 .color2 {color: #383056;} nav
 .color3 {color: #706298;} body
 .color4 {color: #bc93ea;}
 .color5 {color: #f8c4ed;}
-    float:left 33.33%;*/
+float:left 33.33%;*/
