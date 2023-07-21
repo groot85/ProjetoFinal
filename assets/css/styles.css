@@ -14,9 +14,10 @@
 }
 
 .navbar{
-    padding: 0cqmax; 
+    padding: 15px 100px; 
     position: fixed; 
     width: 100%;
+    z-index: 999
 }
 
 .divLogo{
@@ -25,7 +26,7 @@
 }
 
 .heightFull{
-    height: 100vh;
+    height:100vh;
 }
 
 .sectionOne{
@@ -35,25 +36,69 @@
 
 .titleSectionOne{
     color: #383056;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 600;
-    margin-bottom: 34px;
+    margin:0px;
 }
 
 .subTitleSectionOne{
     color: #383056;
-    font-size: 30px;
+    font-size: 25px;
     font: 300;
-    margin-bottom: 34px;
+    margin-bottom: 40px;
+}
+
+.imgTopo{
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    width: 500px; 
 }
 
 .divContenSectionOne{
-    padding: 0px 100px;
+    padding:0px 100px;
 }
 
+.btn-sectionOneL{
+    color:#bc93ea;
+    background-color: #383056;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
 
+}
+
+.btn-sectionOneL:hover{
+    color:#383056;
+    background-color: #bc93ea;
+    border: none;
+}
+
+.btn-sectionOneR{
+    color: #383056;
+    background-color: #bc93ea;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-sectionOneR:hover{
+    color:#bc93ea;
+    background-color:#383056;
+    border: none; 
+}
+
+.ladoalado{
+    display: flex;
+
+    
+
+  }
 /*.color1 {color: #130b1e;}
 .color2 {color: #383056;} nav
 .color3 {color: #706298;} body
 .color4 {color: #bc93ea;}
-.color5 {color: #f8c4ed;}*/
+.color5 {color: #f8c4ed;}
+    float:left 33.33%;*/
