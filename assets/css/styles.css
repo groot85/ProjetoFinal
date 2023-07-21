@@ -51,9 +51,9 @@
 }
 .titleSectionTwo{
     color: #383056;
-    font-size: 40px;
+    font-size:30px;
     font-weight: 600;
-    margin:0px;
+    margin: 8px;
 }
 .subTitleSectionTwo{
     color: #383056;
@@ -97,7 +97,7 @@
 
 .textSectionThree{
     color: #bc93ea;
-    font-size: 14px;
+    font-size:16px;
     font: 300;
     margin-bottom: 7px;
 }
@@ -240,8 +240,9 @@
   }
 
   .imgcursos{
-    border: 10px #bc93ea;
-  }
+    border: 4mm ridge rgba(217, 76, 225, 0.6);  
+}
+
   /*.color1 {color: #130b1e;}
 .color2 {color: #383056;} nav
 .color3 {color: #706298;} body
